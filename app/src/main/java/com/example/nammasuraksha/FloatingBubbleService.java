@@ -39,7 +39,7 @@ public class FloatingBubbleService extends Service {
 
         windowManager.addView(bubbleView, params);
     }
-
+//updateBubble
     public static void updateBubble(boolean isSafe) {
         if (bubbleImage != null) {
             if (isSafe) {
